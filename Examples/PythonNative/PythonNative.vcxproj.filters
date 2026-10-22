@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="01 Libs">
+      <UniqueIdentifier>{7a69364c-c904-4225-94b4-135dc8ec070f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Libs\Debug">
+      <UniqueIdentifier>{96c71b67-b19f-4580-b0c8-4bf044eac722}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PythonNative.cpp">
@@ -22,5 +28,10 @@
   <ItemGroup>
     <None Include="runner.py" />
     <None Include="test.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Users\Calin Teodorescu\AppData\Local\Python\pythoncore-3.15-64\libs\python315_d.lib">
+      <Filter>01 Libs\Debug</Filter>
+    </Library>
   </ItemGroup>
 </Project>
